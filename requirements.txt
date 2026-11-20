@@ -1,0 +1,10 @@
+# Apache Airflow and Core Dependencies for MLOps Assignment 4
+# Compatible with Airflow 2.10.x / 2.11.x on Python 3.10 - 3.12
+# Recommended installation:
+#   pip install "apache-airflow==2.10.4" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.4/constraints-3.10.txt"
+#   pip install -r requirements.txt
+
+apache-airflow==2.10.4
+pandas>=2.0.0,<2.3.0
+numpy>=1.24.0,<2.1.0
+

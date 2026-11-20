@@ -1,0 +1,13 @@
+customer_id,age,gender,purchase_amount,city
+CUST001,28,M,120.5,New York
+CUST002,34,F,250.0,San Francisco
+CUST003,45,M,89.99,Chicago
+CUST004,22,F,310.25,Seattle
+CUST005,58,M,45.0,Boston
+CUST006,36,F,175.8,Austin
+CUST007,41,M,175.8,Denver
+CUST008,29,UNKNOWN,99.5,Chicago
+CUST009,36,F,210.0,Unknown
+CUST013,27,F,430.75,Seattle
+CUST014,52,M,60.0,New York
+CUST015,39,F,180.2,Los Angeles

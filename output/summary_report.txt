@@ -1,0 +1,29 @@
+================================================================================
+           APACHE AIRFLOW DATA PIPELINE SUMMARY REPORT
+================================================================================
+DAG ID                     : data_pipeline_dag
+Execution Timestamp        : 2026-11-10 02:59:09 UTC
+Processing Completion Status: SUCCESS
+
+--------------------------------------------------------------------------------
+1. PIPELINE EXECUTION METRICS
+--------------------------------------------------------------------------------
+Total records extracted    : 16
+Total records processed    : 12
+Missing values identified  : 4
+Invalid records identified : 3
+Duplicate records removed  : 1
+
+--------------------------------------------------------------------------------
+2. DATA TRANSFORMATION DETAILS
+--------------------------------------------------------------------------------
+- Input data source        : C:\College\SEM 5\MLOPs\Assignment_4\data\input.csv
+- Extracted copy location  : C:\College\SEM 5\MLOPs\Assignment_4\output\extracted_data.csv
+- Cleaned dataset location : C:\College\SEM 5\MLOPs\Assignment_4\output\processed_data.csv
+- Numerical Imputation     : Age (Median), Purchase Amount (Median)
+- Categorical Imputation   : Gender ('Unknown'), City ('Unknown')
+- Validation Criteria      : Age [0-120], Purchase Amount >= 0, Unique customer_id
+
+================================================================================
+Generated automatically by Apache Airflow Workflow Automation Pipeline.
+================================================================================

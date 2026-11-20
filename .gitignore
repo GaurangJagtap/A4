@@ -1,0 +1,36 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+airflow_env/
+.venv/
+env/
+ENV/
+
+# Airflow runtime files and SQLite database
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# Airflow task execution logs (preserve folder structure via logs/.gitkeep)
+logs/*
+!logs/.gitkeep
+
+# Operating system artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+

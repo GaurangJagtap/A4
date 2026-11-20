@@ -1,0 +1,18 @@
+customer_id,age,gender,purchase_amount,city
+CUST001,28,M,120.50,New York
+CUST002,34,F,250.00,San Francisco
+CUST003,45,M,89.99,Chicago
+CUST004,22,F,310.25,Seattle
+CUST005,58,M,45.00,Boston
+CUST006,,F,175.80,Austin
+CUST007,41,M,,Denver
+CUST008,29,,99.50,Chicago
+CUST009,36,F,210.00,
+CUST010,-8,M,150.00,Miami
+CUST011,145,F,85.00,Dallas
+CUST012,31,M,-65.00,Atlanta
+CUST003,45,M,89.99,Chicago
+CUST013,27,F,430.75,Seattle
+CUST014,52,M,60.00,New York
+CUST015,39,F,180.20,Los Angeles
+
